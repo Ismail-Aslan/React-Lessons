@@ -15,7 +15,7 @@ class ClassComponent extends React.Component {
                     Class Component
                 </h2>
                 <p>{this.props.y}</p>
-                <p>My counter: {this.state.counter}</p>
+                <p>My counter(STATE): {this.state.counter}</p>
                 <button type="button" onClick={this.changeCounter}>Change Counter</button>
             </div>
         );
