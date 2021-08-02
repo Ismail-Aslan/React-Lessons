@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
         <h1>Ismail ASLAN</h1>
-        <ClassComponent/>
-        <FunctionalComponent/>
+        <ClassComponent y="Class Component PROPS"/>
+        <FunctionalComponent x="Functional Component PROPS" />
     </div>
   );
 }

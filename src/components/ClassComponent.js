@@ -9,6 +9,7 @@ class ClassComponent extends React.Component {
                 <h2>
                     Class Component
                 </h2>
+                <p>{this.props.y}</p>
             </div>
         );
     }
