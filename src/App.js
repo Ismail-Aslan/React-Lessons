@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import ClassComponent from './components/ClassComponent';
-
+import FunctionalComponent from './components/FunctionalComponent';
 
 
 function App() {
   return (
     <div className="App">
-        <ClassComponent></ClassComponent>
+        <h1>Ismail ASLAN</h1>
+        <ClassComponent/>
+        <FunctionalComponent/>
     </div>
   );
 }

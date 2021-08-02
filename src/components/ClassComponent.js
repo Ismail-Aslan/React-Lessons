@@ -6,9 +6,9 @@ class ClassComponent extends React.Component {
         return(
             //herşey tek bir div içerisinde olmak zorunda
             <div className="wrapper"> 
-                <h1>
-                    Ismail ASLAN
-                </h1>
+                <h2>
+                    Class Component
+                </h2>
             </div>
         );
     }
