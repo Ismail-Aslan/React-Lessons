@@ -2,6 +2,11 @@ import React from "react";
 
 
 class ClassComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {counter: 0};
+    }
+    changeCounter = () => {this.setState({counter: this.state.counter + 1})};
     render() {
         return(
             //herşey tek bir div içerisinde olmak zorunda
@@ -10,6 +15,8 @@ class ClassComponent extends React.Component {
                     Class Component
                 </h2>
                 <p>{this.props.y}</p>
+                <p>My counter: {this.state.counter}</p>
+                <button type="button" onClick={this.changeCounter}>Change Counter</button>
             </div>
         );
     }
